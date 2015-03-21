@@ -20,7 +20,7 @@ module Lita
       route %r{(NOT SURE IF .*) (OR .*)}i,                         :meme_not_sure_if,      help: { "NOT SURE IF.. OR.." => "generates NOT SURE IF .. OR meme" }
       route %r{(YO DAWG .*) (SO .*)}i,                             :meme_yo_dawg,          help: { "YO DAWG.." => "generates YO DAWG meme" }
       route %r{(ALL YOUR .*) (ARE BELONG TO US)}i,                 :meme_are_belong,       help: { "ALL YOUR.. ARE BELONG TO US" => "generates ALL YOUR.. ARE BELONG TO US meme" }
-      route %r{(.*) (FUCK YOU)}i,                                  :meme_fuck_you,         help: { "..FUCK YOU" => "generates ..FUCK YOU meme" }
+#      route %r{(.*) (FUCK YOU)}i,                                  :meme_fuck_you,         help: { "..FUCK YOU" => "generates ..FUCK YOU meme" }
       route %r{(.*) (You'?re gonna have a bad time)}i,             :meme_bad_time,         help: { ".. You're going have a bad time" => "generates You're gonna have a bad time meme" }
       route %r{(one does not simply) (.*)}i,                       :meme_simply,           help: { "one does not simply.." => "generates one does not simply.. meme" }
       route %r{(grumpy cat) (.*),(.*)}i,                           :meme_grumpy_cat,       help: { "grumpy cat .. , .." => "generates grumpy cat .. , .. meme" }
@@ -29,7 +29,7 @@ module Lita
       route %r{(.*)(NOT IMPRESSED*)}i,                             :meme_not_impressed,    help: { "..NOT IMPRESSED" => "generates ..NOT IMPRESSED meme" }
       route %r{(PREPARE YOURSELF) (.*)}i,                          :meme_prepare_yourself, help: { "PREPARE YOURSELF.." => "generates PREPARE YOURSELF.. meme" }
       route %r{(WHAT IF I TOLD YOU) (.*)}i,                        :meme_what_if_i,        help: { "WHAT IF I TOLD YOU.." => "generates WHAT IF I TOLD YOU.. meme" }
-      route %r{(.*) (BETTER DRINK MY OWN PISS)}i,                  :meme_better_drink,     help: { "..BETTER DRINK MY OWN PISS" => "generates ..BETTER DRINK MY OWN PISS meme" }
+#      route %r{(.*) (BETTER DRINK MY OWN PISS)}i,                  :meme_better_drink,     help: { "..BETTER DRINK MY OWN PISS" => "generates ..BETTER DRINK MY OWN PISS meme" }
       route %r{^khanify (.*)}i,                                    :meme_khanify,          help: { "khanify ..." => "generates khan meme" }
       route %r{(so.*|very.*|much.*|such.*) (wow)}i,                                       :meme_doge,             help: { "so|very|much|such... wow" => "generates doge meme" }
       route %r{(Imma let you finish) (.*)}i,                       :meme_kanye,            help: { "Imma let you finish ..." => "generates kanye meme"}
